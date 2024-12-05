@@ -1,0 +1,41 @@
+body
+{
+    background-color: black;
+}
+h2
+{
+    text-align: center;
+    border-style: outset;
+    border-color: yellow;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(36,36,36);
+    color: white;
+    margin: 100px;
+    font-family: "Space Grotesk",system-ui;
+}
+.btn
+{
+    background-color: blue;
+    transform: scale(1.5);
+    border-radius: 10px;
+}
+.inp
+{
+    transform: scale(1.5);
+}
+li
+{
+    border-style: outset;
+    border-radius: 10px;
+    border-color: rgb(78,225,160);
+    color: white;
+}
+
+div
+{
+    display: flex;
+    justify-content: center;
+    
+}

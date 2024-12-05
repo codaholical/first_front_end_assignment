@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <script type="text/javascript">
+        document.write("<h1>hello</ h1>");
+        console.warn("warning!!!");
+        console.error("this is an error");
+    </script>
+    <head>
+        <title>
+            This is a stupid website
+        </title>
+        <link rel = "stylesheet" href = "tutorial.css">
+    </head>
+    <body>
+        <section>
+        <h1 id = "bodyheader" class= "firstheader">Puppies need new homes</h1>
+        </section>
+        <input type = "text" id="inp"/>
+        <script type= "text/javascript"> 
+            var randomvar;
+            document.write(document.getElementById ("bodyheader").innerHTML);
+            document.getElementsByClassName("firstheader").innerHTML = "Dat dep trai vai dai";
+            randomvar = document.getElementById("inp").value = prompt("enter your first name"); 
+            console.log(randomvar);
+        </script>
+        <section>
+        </section>
+    </body>
+</html>
